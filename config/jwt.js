@@ -1,3 +1,3 @@
 module.exports = {
-  JWT_SECRET: "exeligent.7071"
+  JWT_SECRET: ""
 };

@@ -22,9 +22,7 @@ app.use(
 
 //Routes
 app.use("/user/", require("./routes/authRoutes"));
-/* app.use("/home", require("./routes/AccessRoutes"));
-app.use("/post", require("./routes/PostRoutes")); */
-// Start the server
+ 
 const port = process.env.PORT || 5000;
 app.listen(port);
 console.log("Server listening at " + port);
